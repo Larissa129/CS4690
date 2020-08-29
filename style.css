@@ -1,0 +1,118 @@
+@media screen and (max-width: 767px){
+    .game-container{
+        margin-top:10px;
+    }
+}
+*{
+    box-sizing: border-box;
+}
+html{
+    min-height: 100vh;
+    font-family: 'Creepster', cursive;
+}
+body{
+    margin: 0;
+    background: radial-gradient(lightblue, blue);
+}
+h1{
+    font-family: 'Creepster', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+.game-container{
+    display:grid;
+    grid-gap: 10px;
+    margin:0px;
+    /* justify-content: center; */
+    align-items: center;
+    
+
+}
+.game-info{
+    font-family: 'Creepster', cursive;
+    grid-column:1/-1;
+    margin: 20px;
+    justify-content: left;
+    
+    
+}
+.start-messege{
+    font-family:'Creepster',cursive ;
+    color:white;
+    
+}
+.plus{
+    color:green;
+    font-size: 700%;
+}
+.star{
+    color: blue;
+    font-size: 600%;
+}
+.sqare{
+    color:red;
+    font-size: 600%;
+    align-items: center;
+}
+.circle{
+    color: pink;
+    font-size: 600%;
+}
+.waves{
+    color: orange;
+    font-size: 600px;
+}
+.modal-title{
+    font-family: 'Creepster',cursive ;
+    font-size: medium;
+    background-color: black;
+    color:greenyellow;
+}
+
+
+
+.card{
+    position: absolute;
+    background:black;
+    height:175px;
+    width:125px;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    align-items: center;
+    bottom: 350px;
+    right: 125px;
+
+}
+.card-face{
+    position: absolute;
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style:solid;
+}
+
+
+.rotate{
+    display: inline-block;
+    transform: rotate(90deg);
+    text-align: center;
+    margin: 0 -15px;
+    box-sizing: border-box;
+
+}
+
+img{
+    display:block;
+    max-width: 100%;
+    height:auto;
+}
+/* .star{
+    bottom:100px;
+    color:white;
+
+
+} */
