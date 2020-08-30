@@ -30,6 +30,7 @@ h1{
 }
 .game-info{
     font-family: 'Creepster', cursive;
+    font-size: x-large;
     grid-column:1/-1;
     margin: 20px;
     justify-content: left;
@@ -74,13 +75,13 @@ h1{
 .card{
     position: absolute;
     background:black;
-    height:175px;
-    width:125px;
+    height:50%;
+    width:50%;
     transition: transform 1s;
     transform-style: preserve-3d;
     align-items: center;
-    bottom: 350px;
-    right: 125px;
+    bottom: 25%;
+    right: 25%;
 
 }
 .card-face{
